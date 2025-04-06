@@ -7,5 +7,9 @@ export function getFormattedDate(date) {
 }
 
 export function getDateMinusDays(date, days) {
-  return new Date(date.getUTCFullYear, date.getUTCMonth(), date.getUTCDate() - days);
+  return new Date(
+    date.getUTCFullYear(),
+    date.getUTCMonth(),
+    date.getUTCDate() - days
+  );
 }
