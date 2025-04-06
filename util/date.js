@@ -1,3 +1,5 @@
 export function getFormattedDate(date) {
-  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate() + 1}`;
+  return `${date.getUTCFullYear()}-${
+    date.getUTCMonth() + 1
+  }-${date.getUTCDate()}`;
 }
