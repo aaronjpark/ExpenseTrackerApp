@@ -48,6 +48,7 @@ function ManageExpense({ route, navigation }) {
 
   return (
     <View style={styles.container}>
+  
       <View style={styles.buttons}>
         <Button style={styles.button} mode="flat" onPress={cancelHandlers}>
           Cancel
